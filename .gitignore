@@ -1,0 +1,10 @@
+.idea
+.DS_Store
+.env
+/ssl/*
+db.sqlite
+node_modules
+package-lock.json
+config.js
+/lib/recording/results/*
+/lib/recording/sdps/*

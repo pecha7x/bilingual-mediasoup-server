@@ -1,0 +1,23 @@
+{
+  "name": "bilingual-mediasoup-server",
+  "version": "1.0.0",
+  "description": "Bilingual Mediasoup Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1386.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.16.4",
+    "mediasoup": "3",
+    "socket.io": "^4.6.1",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
